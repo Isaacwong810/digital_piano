@@ -1,0 +1,134 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Tue Nov 20 18:05:03 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x0002e0
+.config_300001_MINIPROJECT_GROUP7.O    romdata   0x300001    program   0x000001
+.config_300002_MINIPROJECT_GROUP7.O    romdata   0x300002    program   0x000001
+.config_300003_MINIPROJECT_GROUP7.O    romdata   0x300003    program   0x000001
+.config_300005_MINIPROJECT_GROUP7.O    romdata   0x300005    program   0x000001
+.config_300006_MINIPROJECT_GROUP7.O    romdata   0x300006    program   0x000001
+.config_300008_MINIPROJECT_GROUP7.O    romdata   0x300008    program   0x000001
+.config_300009_MINIPROJECT_GROUP7.O    romdata   0x300009    program   0x000001
+.config_30000A_MINIPROJECT_GROUP7.O    romdata   0x30000a    program   0x000001
+.config_30000B_MINIPROJECT_GROUP7.O    romdata   0x30000b    program   0x000001
+.config_30000C_MINIPROJECT_GROUP7.O    romdata   0x30000c    program   0x000001
+.config_30000D_MINIPROJECT_GROUP7.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0002df      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            747 out of 33048 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    CLEAR   0x000096    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              CLEARINSIDE   0x0000ac    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                CLEARLOOP   0x00009e    program     static C:\ee2004\grouppj\miniproject_group7.asm
+             DOUBLE_CHECK   0x000080    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                    Delay   0x0002d0    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                DelayLoop   0x0002d6    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                DetectCol   0x000126    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                  KeyScan   0x0000e0    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                     Loop   0x0000b8    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                     Main   0x000004    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                 MainLoop   0x000018    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   Output   0x000122    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                     PLAY   0x0000b0    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                PLAYDELAY   0x0000d6    program     static C:\ee2004\grouppj\miniproject_group7.asm
+               PLAYINSIDE   0x0000d0    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                PLAYSOUND   0x000048    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                    SOUND   0x000022    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND1   0x000138    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                  SOUND10   0x00026a    program     static C:\ee2004\grouppj\miniproject_group7.asm
+             SOUND10_LOOP   0x000284    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                  SOUND11   0x00028c    program     static C:\ee2004\grouppj\miniproject_group7.asm
+             SOUND11_LOOP   0x0002a6    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                  SOUND12   0x0002ae    program     static C:\ee2004\grouppj\miniproject_group7.asm
+             SOUND12_LOOP   0x0002c8    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND1_LOOP   0x000152    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND2   0x00015a    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND2_LOOP   0x000174    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND3   0x00017c    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND3_LOOP   0x000196    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND4   0x00019e    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND4_LOOP   0x0001b8    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND5   0x0001c0    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND5_LOOP   0x0001da    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND6   0x0001e2    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND6_LOOP   0x0001fc    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND7   0x000204    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND7_LOOP   0x00021e    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND8   0x000226    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND8_LOOP   0x000240    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND9   0x000248    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND9_LOOP   0x000262    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                    START   0x00008a    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                     STOP   0x000090    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                 no_input   0x00006e    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                      ret   0x000120    program     static C:\ee2004\grouppj\miniproject_group7.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     Main   0x000004    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                 MainLoop   0x000018    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                    SOUND   0x000022    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                PLAYSOUND   0x000048    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                 no_input   0x00006e    program     static C:\ee2004\grouppj\miniproject_group7.asm
+             DOUBLE_CHECK   0x000080    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                    START   0x00008a    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                     STOP   0x000090    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                    CLEAR   0x000096    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                CLEARLOOP   0x00009e    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              CLEARINSIDE   0x0000ac    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                     PLAY   0x0000b0    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                     Loop   0x0000b8    program     static C:\ee2004\grouppj\miniproject_group7.asm
+               PLAYINSIDE   0x0000d0    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                PLAYDELAY   0x0000d6    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                  KeyScan   0x0000e0    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                      ret   0x000120    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   Output   0x000122    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                DetectCol   0x000126    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND1   0x000138    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND1_LOOP   0x000152    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND2   0x00015a    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND2_LOOP   0x000174    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND3   0x00017c    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND3_LOOP   0x000196    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND4   0x00019e    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND4_LOOP   0x0001b8    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND5   0x0001c0    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND5_LOOP   0x0001da    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND6   0x0001e2    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND6_LOOP   0x0001fc    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND7   0x000204    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND7_LOOP   0x00021e    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND8   0x000226    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND8_LOOP   0x000240    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                   SOUND9   0x000248    program     static C:\ee2004\grouppj\miniproject_group7.asm
+              SOUND9_LOOP   0x000262    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                  SOUND10   0x00026a    program     static C:\ee2004\grouppj\miniproject_group7.asm
+             SOUND10_LOOP   0x000284    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                  SOUND11   0x00028c    program     static C:\ee2004\grouppj\miniproject_group7.asm
+             SOUND11_LOOP   0x0002a6    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                  SOUND12   0x0002ae    program     static C:\ee2004\grouppj\miniproject_group7.asm
+             SOUND12_LOOP   0x0002c8    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                    Delay   0x0002d0    program     static C:\ee2004\grouppj\miniproject_group7.asm
+                DelayLoop   0x0002d6    program     static C:\ee2004\grouppj\miniproject_group7.asm
+
+
